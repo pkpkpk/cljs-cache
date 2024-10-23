@@ -1,0 +1,2 @@
+{:paths ["src"]
+ :deps {tailrecursion/cljs-priority-map {:mvn/version "1.2.1"}}}
