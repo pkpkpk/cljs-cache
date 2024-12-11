@@ -13,7 +13,7 @@
 (defn clean [] (b/delete {:path "target"}))
 
 (defn- pom-template [version]
-  [[:description "cljs.cache"]
+  [[:description "cljs.cache & cljs.cache.wrapped"]
    [:url "https://github.com/pkpkpk/cljs-cache"]
    [:licenses
     [:license

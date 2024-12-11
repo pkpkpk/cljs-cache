@@ -2,5 +2,5 @@
  :deps {tailrecursion/cljs-priority-map {:mvn/version "1.2.1"}}
  :aliases
  {:dev {:extra-paths ["src/dev"]
-        :extra-deps {io.github.clojure/tools.build {:mvn/version "0.9.5"}
+        :extra-deps {io.github.clojure/tools.build {:mvn/version "0.10.6"}
                      slipset/deps-deploy           {:mvn/version "0.2.1"}}}}}
